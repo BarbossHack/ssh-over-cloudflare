@@ -12,7 +12,9 @@ This is a demo script using Chisel and Cloudflared.
 # Install Chisel, cloudflared, and podman
 sudo dnf install -y chisel cloudflared podman
 # Start simple nginx website (for chisel --backend) and SSH server (the target SSH)
-make
+git clone https://github.com/BarbossHack/chisel-cloudflare-demo && \
+    cd chisel-cloudflare-demo && \
+    make
 # See https://github.com/lucas-clemente/quic-go/wiki/UDP-Receive-Buffer-Size for details.
 sudo sysctl -w net.core.rmem_max=2500000
 # Start a Cloudflare Quick Tunnel, to get a real world Cloudflare reverse proxy to test Chisel

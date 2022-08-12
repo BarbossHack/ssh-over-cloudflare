@@ -1,8 +1,6 @@
 # SSH over Cloudflare
 
-Chisel allows you to connect to your SSH server hrough HTTP reverse proxies like Cloudflare.
-
-This is a demo script using Chisel and Cloudflared.
+Demo script (using chisel and cloudflared) to show how to connect to your SSH server through Cloudflare http reverse proxy.
 
 ## Server
 

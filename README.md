@@ -1,4 +1,4 @@
-# Chisel SSH through Cloudflare demo
+# SSH over Cloudflare
 
 Chisel allows you to connect to your SSH server hrough HTTP reverse proxies like Cloudflare.
 
